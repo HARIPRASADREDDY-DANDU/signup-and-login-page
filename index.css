@@ -1,0 +1,97 @@
+/* css page 1 */
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(336deg, rgba(2,0,36,1)
+     0%, rgba(235,135,11,1) 0%, rgba(89,216,242,1) 71%);
+    color: blanchedalmond;
+}
+.maincontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+.logincontainer,.sigupContainer{
+    border-style: solid;
+    border-width: 0.1px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    backdrop-filter: brightness(0.8);
+    color: blanchedalmond;
+    
+}
+.subcontainer{
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: blanchedalmond;
+}
+.subcontainerSignup{
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+    color: blanchedalmond;
+}
+#show{
+    width: 15px;
+    margin-top: 0px;
+}
+.showtext{
+    margin-left: -90px;
+    margin-top: 10px;
+}
+.showtextSignup{
+    margin-left: -10px;
+    margin-top: 10px;
+}
+input{
+    width: 250px;
+    margin-top: 20px;
+    height: 30px;
+    border-style: none;
+    background: none;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    color: blanchedalmond;
+}
+input::placeholder{
+    color: blanchedalmond;
+}
+input[type=checkbox]{
+    accent-color: blanchedalmond;
+}
+.loginbtn{
+    margin-top: 25px;
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    border-width: 0.1px;
+}
+.loginbtn:hover{
+    background-color: rgb(238, 210, 168);
+    transition: 0.3s ease-in-out;
+}
+.spanLogin{
+    color: rgb(0, 145, 255);
+}
+.endLink{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: fit-content;
+}
+a{
+    margin-top: 15px;
+}
